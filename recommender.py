@@ -7,7 +7,7 @@ movies = pickle.load(open('model_file/movies.pkl', 'rb'))
 similarity = pickle.load(open('model_file/similarity.pkl', 'rb'))
 
 def fetch_poster(movie_name):
-    api_key = "Your_OMDB_api_key"
+    api_key = st.secrets["OMDB_API_KEY"]
     url = f"https://www.omdbapi.com/?t={movie_name}&apikey={api_key}"
     response = requests.get(url).json()
     poster_url = response.get("Poster", "")
