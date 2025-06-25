@@ -26,7 +26,7 @@ Built with **Python**, **Streamlit**, and powered by **OMDB API** for fetching m
 ## 🛠️ Setup Locally
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/](https://github.com/Vinaya-Busam/MRS.gt
+git clone https://github.com/Vinaya-Busam/MRS.gt
 cd movie-recommender
 ```
 ### 2. Install dependencies
